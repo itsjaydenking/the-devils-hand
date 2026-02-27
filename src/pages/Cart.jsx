@@ -102,7 +102,7 @@ export default function Cart() {
 
       <Modal open={open} title="Mock checkout" onClose={() => setOpen(false)}>
         <p className="muted">
-          This is a demo storefront—no payments will be processed.
+          This is a demo storefront, no payments will be processed.
         </p>
         <div className="stackMd">
           <Button

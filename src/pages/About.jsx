@@ -23,7 +23,7 @@ export default function About() {
         <div className="manifestoGrid">
           <p>
             <strong>Inclusion:</strong> Tools should fit people, not the other
-            way around. Left-handed users deserve thoughtful design—not an
+            way around. Left-handed users deserve thoughtful design, not an
             afterthought aisle.
           </p>
           <p>
@@ -36,7 +36,7 @@ export default function About() {
             punishing your wrist.
           </p>
           <p className="note tornAll">
-            This is a demo site concept—built to feel real, accessible, and
+            This is a demo site concept, built to feel real, accessible, and
             brand-forward.
           </p>
         </div>

@@ -26,7 +26,7 @@ const ph = (label) =>
       <path d="M880 520c120-40 220-10 280 70" stroke="#88FF3B" stroke-width="10" fill="none" opacity="0.55"/>
       <path d="M160 560c120-140 260-160 390-80" stroke="#D9D2C2" stroke-width="8" fill="none" opacity="0.35"/>
     </g>
-    <text x="90" y="690" fill="#D9D2C2" font-family="Inter, Arial" font-size="22" opacity="0.75">Lefty-friendly gear — demo visuals</text>
+    <text x="90" y="690" fill="#D9D2C2" font-family="Inter, Arial" font-size="22" opacity="0.75">Lefty-friendly gear, demo visuals</text>
   </svg>
 `);
 
@@ -48,11 +48,11 @@ export const products = [
     description: "Cut like a curse, clean like a ritual.",
     features: [
       "True left-hand blades",
-      "Soft-grip handles",
+      "Soft grip handles",
       "Stays sharp on paper + fabric",
     ],
     leftyBenefit:
-      "Blades align for left-hand pressure—no folding paper, no fighting physics.",
+      "Blades align for left hand pressure, no folding paper, no fighting physics.",
     image: ph("Lefty Blade Scissors"),
   },
   {
@@ -63,12 +63,12 @@ export const products = [
     description:
       "Ink that doesn’t smear when you drag your destiny across the page.",
     features: [
-      "Fast-dry ink converter",
+      "Fast dry ink converter",
       "Grip tuned for lefties",
-      "Matte-black barrel",
+      "Matte black barrel",
     ],
     leftyBenefit:
-      "Fast-dry flow helps reduce smudging for overwriters/sidewriters.",
+      "Fast dry flow helps reduce smudging for overwriters/sidewriters.",
     image: ph("Southpaw Fountain Pen"),
   },
   {
@@ -115,7 +115,7 @@ export const products = [
     description: "A rune-board for raids and late-night chaos.",
     features: ["Programmable keys", "Tactile switches", "Compact footprint"],
     leftyBenefit:
-      "Places key clusters where your left hand lives—no awkward reach.",
+      "Places key clusters where your left hand lives, no awkward reach.",
     image: ph("Hex-Ward Gaming Keypad"),
   },
   {

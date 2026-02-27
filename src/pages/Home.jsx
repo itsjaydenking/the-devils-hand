@@ -52,7 +52,7 @@ export default function Home() {
             left-handedness like a flaw to be corrected.
           </p>
           <p>
-            Kids were pushed—sometimes with humiliation and “discipline”—to
+            Kids were pushed, sometimes with humiliation and “discipline,” to
             write with the right hand, even when it never felt natural.
           </p>
           <p>
@@ -61,8 +61,8 @@ export default function Home() {
           </p>
           <p className="note tornAll">
             I was born left-handed but was forced to use my right hand. My
-            mother is left-handed. My partner is left-handed — and their dad
-            too. We’re not broken; we’re a lineage. We’re done being corrected.
+            mother is left-handed. My partner is left-handed and their dad too.
+            We’re not broken; we’re a lineage. We’re done being corrected.
           </p>
         </div>
 

@@ -8,8 +8,8 @@ const FUN_FACTS = [
   "Smudging ink is a classic lefty problem because many writing systems flow left-to-right.",
   "In some cultures and historical contexts, the left hand carried negative or “unclean” associations.",
   "Lefties often develop ambidextrous workarounds just to get through standard tasks.",
-  "Sports gear and coaching cues can default to right-handed assumptions—lefties adapt or improvise.",
-  "Creativity correlations are often claimed in pop culture; evidence is mixed—consider it folk wisdom, not destiny.",
+  "Sports gear and coaching cues can default to right-handed assumptions lefties adapt or improvise.",
+  "Creativity correlations are often claimed in pop culture; evidence is mixed, consider it folk wisdom, not destiny.",
   "Left-handed athletes can be strategically “unexpected” in certain matchups (context matters!).",
   "Tool ergonomics is real: mirrored bevels, grips, and layouts can reduce fatigue and improve accuracy.",
   "Reclaiming language can be powerful: what was labeled “wrong” becomes a banner.",
@@ -19,7 +19,7 @@ const FAMOUS_LEFTIES = [
   {
     name: "Leonardo da Vinci",
     category: "Artist / Inventor",
-    line: "Sketches, mirrors, and genius-level tinkering.",
+    line: "Sketches, mirrors, and genius level tinkering.",
   },
   {
     name: "Jimi Hendrix",
@@ -44,7 +44,7 @@ const FAMOUS_LEFTIES = [
   {
     name: "Keanu Reeves",
     category: "Actor",
-    line: "Calm chaos. Soft-spoken legend energy.",
+    line: "Calm chaos. Soft spoken legend energy.",
   },
   {
     name: "Scarlett Johansson",
@@ -101,12 +101,12 @@ const QUIZ = [
     a: [
       "A smear campaign against me",
       "Mostly fine",
-      "Depends on the pen — I’m picky",
+      "Depends on the pen, I’m picky",
     ],
     w: [3, 1, 2],
   },
   {
-    q: "Your relationship with right-handed tools is…",
+    q: "Your relationship with right handed tools is…",
     a: [
       "An enemies-to-lovers arc (still enemies)",
       "We coexist",
@@ -132,9 +132,9 @@ const QUIZ = [
 
 function resultText(score) {
   if (score >= 13)
-    return "Full Devil’s Hand lefty: certified rebel, tool-slayer, unapologetic southpaw.";
+    return "Full Devil’s Hand lefty: certified rebel, tool slayer, unapologetic southpaw.";
   if (score >= 9)
-    return "Lefty-coded: you’ve adapted… but you deserve better gear.";
+    return "Lefty coded: you’ve adapted… but you deserve better gear.";
   return "Honorary lefty ally: you respect the struggle and you support the coven.";
 }
 
@@ -152,7 +152,7 @@ export default function Lore() {
   return (
     <div className="container stackLg">
       <header className="pageHead">
-        <h1 className="h1">Left-Hand Lore</h1>
+        <h1 className="h1">Left Hand Lore</h1>
         <p className="lead muted">
           Fun facts, famous lefties, and a tiny quiz to see how cursed
           (affectionate) you are.
@@ -189,7 +189,7 @@ export default function Lore() {
         <div
           className="famousGrid"
           role="list"
-          aria-label="Famous left-handed people list"
+          aria-label="Famous left handed people list"
         >
           {FAMOUS_LEFTIES.map((p) => (
             <div

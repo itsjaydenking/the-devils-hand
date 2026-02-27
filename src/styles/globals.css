@@ -93,7 +93,7 @@ select {
 
 .lead {
   font-size: 1.05rem;
-  max-width: 70ch;
+  max-width: 90ch;
   margin: 0;
 }
 .muted {

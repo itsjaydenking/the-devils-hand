@@ -47,8 +47,12 @@ export default function Navbar() {
         </nav>
       </div>
       <div className="warningTape" aria-hidden="true">
-        <span>RECLAIM • LEFTY PRIDE • ZINE MAGIC •</span>
-        <span>RECLAIM • LEFTY PRIDE • ZINE MAGIC •</span>
+        <span>
+          RECLAIM • LEFTY PRIDE • ZINE MAGIC • RECLAIM • LEFTY PRIDE • ZINE
+          MAGIC • RECLAIM • LEFTY PRIDE • ZINE MAGIC • RECLAIM • LEFTY PRIDE •
+          ZINE MAGIC • RECLAIM • LEFTY PRIDE • ZINE MAGIC • RECLAIM • LEFTY
+          PRIDE • ZINE MAGIC • RECLAIM •
+        </span>
       </div>
     </header>
   );
