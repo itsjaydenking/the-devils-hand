@@ -10,18 +10,27 @@ import Checkout from "./pages/Checkout";
 import Lore from "./pages/Lore";
 import About from "./pages/About";
 
-export const router = createBrowserRouter([
+import ErrorPage from "./pages/ErrorPage";
+
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: "shop", element: <Shop /> },
+        { path: "product/:id", element: <ProductDetail /> },
+        { path: "cart", element: <Cart /> },
+        { path: "checkout", element: <Checkout /> },
+        { path: "lore", element: <Lore /> },
+        { path: "about", element: <About /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: "shop", element: <Shop /> },
-      { path: "product/:id", element: <ProductDetail /> },
-      { path: "cart", element: <Cart /> },
-      { path: "checkout", element: <Checkout /> },
-      { path: "lore", element: <Lore /> },
-      { path: "about", element: <About /> },
-    ],
+    // ✅ GitHub Pages mount path support (/the-devils-hand/)
+    basename: import.meta.env.BASE_URL,
   },
-]);
+);
